@@ -568,7 +568,8 @@ export function Settings() {
   const [checkingUpdate, setCheckingUpdate] = useState(false);
   const currentVersion = updateStore.formatVersion(updateStore.version);
   const remoteId = updateStore.formatVersion(updateStore.remoteVersion);
-  const hasNewVersion = currentVersion !== remoteId;
+  // const hasNewVersion = currentVersion !== remoteId;
+  const hasNewVersion = false;
   const updateUrl = getClientConfig()?.isApp ? RELEASE_URL : UPDATE_URL;
 
   function checkUpdate(force = false) {
