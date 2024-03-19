@@ -38,6 +38,12 @@ export function AuthPage() {
 
       <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
       <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
+      <div className={styles["auth-pay-tips"]}>
+        {Locale.Auth.PayTips}
+        <a href="javascript: void(0)" onClick={() => navigate(Path.Subscribe)}>
+          {Locale.Auth.PayTipsLink}
+        </a>
+      </div>
 
       <input
         className={styles["auth-input"]}

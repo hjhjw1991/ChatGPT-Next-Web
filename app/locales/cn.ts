@@ -13,6 +13,8 @@ const cn = {
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
+    PayTips: "还没有访问码？点击",
+    PayTipsLink: "立即购买",
     SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
     Input: "在此处填写访问码",
     Confirm: "确认",
@@ -124,6 +126,10 @@ const cn = {
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
+  },
+  Subscribe: {
+    CupOfCoffee: "打赏一杯咖啡",
+    Tips: "请在付款备注里留下邮箱，最晚1个自然日内收取访问码",
   },
   Settings: {
     Title: "设置",
