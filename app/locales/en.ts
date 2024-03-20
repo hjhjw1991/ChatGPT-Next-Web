@@ -15,6 +15,8 @@ const en: LocaleType = {
   Auth: {
     Title: "Need Access Code",
     Tips: "Please enter access code below",
+    PayTips: "Haven't got an access code? click to",
+    PayTipsLink: "buy now",
     SubTips: "Or enter your OpenAI or Google API Key",
     Input: "access code",
     Confirm: "Confirm",
@@ -127,6 +129,10 @@ const en: LocaleType = {
     DeleteChat: "Confirm to delete the selected conversation?",
     DeleteToast: "Chat Deleted",
     Revert: "Revert",
+  },
+  Subscribe: {
+    CupOfCoffee: "Treat me a cup of coffee",
+    Tips: "Please leave your email in payment memo, and check inbox in at most 1 day later",
   },
   Settings: {
     Title: "Settings",
